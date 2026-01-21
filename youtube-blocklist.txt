@@ -1,53 +1,115 @@
-# YouTube Complete Blocklist
+# Malware and Popup Blocklist
 # Add this to Pi-hole as an adlist: Settings > Adlists > Paste URL or content
-# This blocks YouTube completely
+# This blocks malware, adware, popups, and tracking domains
 
-# Main YouTube domains
-youtube.com
-www.youtube.com
-m.youtube.com
-youtu.be
-www.youtu.be
+# Known Malware Domains
+malware.com
+zeus-tracker.abuse.ch
+sinkhole.shadowserver.org
+tracker.abuse.ch
+ransomware.nomoreransom.org
+malvertising.com
+malware-domains.com
+openphish.com
 
-# YouTube subdomains and services
-accounts.youtube.com
-apis.google.com
-consent.youtube.com
-create.youtube.com
-gaming.youtube.com
-help.youtube.com
-img.youtube.com
-kids.youtube.com
-m.youtube.com
-music.youtube.com
-news.youtube.com
-pay.youtube.com
-s.youtube.com
-shorts.youtube.com
-studio.youtube.com
-support.youtube.com
-tv.youtube.com
-upload.youtube.com
-video-stats.video.google.com
-www-cdn.youtube.com
-www-player.youtube.com
-youtubei.googleapis.com
-yt.be
+# Popup and Ad Networks
+ads.google.com
+pagead2.googlesyndication.com
+adservice.google.com
+googleadservices.com
+doubleclick.net
+www.doubleclick.net
+serving-sys.com
+www.serving-sys.com
+adsrvr.org
+c.betrad.com
+contextual.media.net
+ads.mopub.com
+ads.nexage.com
+ads.flurry.com
+ads.aeterno.com
+ads.tapjoy.com
+banner-ads.com
+popunder.net
+popupwindow.net
+popads.net
+traffic.com
+traffic-exchange.com
+traffic-server.com
 
-# Related image/CDN domains
-i.ytimg.com
-i1.ytimg.com
-i2.ytimg.com
-i3.ytimg.com
-i4.ytimg.com
-s.ytimg.com
-yt3.ggpht.com
-yt4.ggpht.com
-yt5.ggpht.com
+# Adware and PUP (Potentially Unwanted Programs)
+sweetim.com
+babylon.com
+delta-homes.com
+homepage.com
+protectpage.com
+incredibar.com
+crossrider.com
+tradeadexchange.com
+adkontekst.com
+bprotector.com
+wajam.com
+iminent.com
+ask.com
+toolbars.com
+searchqu.com
 
-# YouTube analytics and tracking
-youtube-nocookie.com
-www.youtube-nocookie.com
+# Botnet and C&C Servers
+botnet-tracker.abuse.ch
+zeus.abuse.ch
+palevo.abuse.ch
+conficker.abuse.ch
+waledac.abuse.ch
+pushdo.abuse.ch
+
+# Exploit Kits and Attack Servers
+exploit-kit-tracker.com
+malicious-traffic.com
+blackhole-exploit-kit.com
+nuclear-pack.com
+fiesta-exploit-kit.com
+sakura-exploit-kit.com
+
+# Tracking and Analytics (Privacy concerns)
+scorecardresearch.com
+www.scorecardresearch.com
+analytics.google.com
+google-analytics.com
+www.google-analytics.com
+analytics.twitter.com
+amazon-adsystem.com
+www.amazon-adsystem.com
+criteo.com
+www.criteo.com
+bing.com/acjs
+facebook.com/tr
+rubiconproject.com
+www.rubiconproject.com
+mxcdn.com
+
+# PPC and Affiliate Networks
+clk.tradedoubler.com
+clk.aff-clicks.com
+clk.dianomi.com
+adclick.g.doubleclick.net
+ad.doubleclick.net
+ad-apac.doubleclick.net
+casale.com
+www.casale.com
+google.com/ads/measurement
+
+# Phishing and Scam Domains
+phishing-tracker.abuse.ch
+phishing-feeds.abuse.ch
+scam-alert.com
+fraud-detection.com
+phishing-archive.com
+
+# Additional Security Threats
+wpad.com
+teredo.ipv6.microsoft.com
+isatap.local
+localhost.localdomain
 youtube.googleapis.com
 youtubeembeddedplayer.googleapis.com
 youtubei.googleapis.com
