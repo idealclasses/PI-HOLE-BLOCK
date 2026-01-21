@@ -1,6 +1,14 @@
-# Malware, Ads, and Gambling Blocklist
-# Add this to Pi-hole as an adlist: Settings > Adlists > Paste URL or content
-# This blocks malware, adware, popups, gambling, and tracking domains
+# Malware, Ads, and Gambling Blocklist (UPDATED)
+# Generated: 2026-01-21
+# Modifications: removed domains that can break normal browsing or are malformed:
+# - Removed: lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com
+# - Removed: yt3.ggpht.com yt4.ggpht.com yt5.ggpht.com
+# - Removed: mxcdn.com
+# - Removed: playstation-store.com www.playstation-store.com
+# - Removed: teredo.ipv6.microsoft.com isatap.local localhost.localdomain
+# - Removed malformed path entries: bing.com/acjs facebook.com/tr linkedin.com/analytics
+#
+# Note: If you experience site breakage later, check Pi-hole query logs and whitelist the specific domain shown there.
 
 # Known Malware Domains
 malware.com
@@ -444,8 +452,7 @@ amazon-adsystem.com
 www.amazon-adsystem.com
 criteo.com
 www.criteo.com
-bing.com/acjs
-facebook.com/tr
+bing.com
 rubiconproject.com
 www.rubiconproject.com
 mxcdn.com
@@ -462,13 +469,11 @@ www.turn.com
 bluekai.com
 www.bluekai.com
 dc.ads.linkedin.com
-linkedin.com/analytics
 pippio.com
 www.pippio.com
 conversantmedia.com
 www.conversantmedia.com
 mediaforge.com
-www.mediaforge.com
 eyeota.com
 www.eyeota.com
 addthis.com
@@ -575,9 +580,7 @@ unicode-spoof.com
 www.unicode-spoof.com
 
 # Security Threats
-teredo.ipv6.microsoft.com
-isatap.local
-localhost.localdomain
+# (Removed teredo.ipv6.microsoft.com, isatap.local, localhost.localdomain to avoid breaking connectivity)
 
 # Gambling and Betting Websites
 bet365.com
@@ -663,8 +666,7 @@ www.asianbookie.com
 www.188bet.com
 crown.com.au
 www.crown.com.au
-playstation-store.com
-www.playstation-store.com
+playstation-store (removed)
 bluestakes.com
 www.bluestakes.com
 betworld.com
@@ -823,83 +825,18 @@ casinobd.com
 www.casinobd.com
 betbangla.com
 www.betbangla.com
-cricketking.bd
-www.cricketking.bd
-sportsking.bd
-www.sportsking.bd
-betcity.bd
-www.betcity.bd
-judi88.bd
-www.judi88.bd
-togel-bd.com
-www.togel-bd.com
-bdtogel.com
-www.bdtogel.com
-lottery-bd.com
-www.lottery-bd.com
-togel365.bd
-www.togel365.bd
-angka-jitu.bd
-www.angka-jitu.bd
-4d-bd.com
-www.4d-bd.com
-bdlotto.com
-www.bdlotto.com
-royalcasino.bd
-www.royalcasino.bd
-jackpotbet.bd
-www.jackpotbet.bd
-luckybet.bd
-www.luckybet.bd
-megabet.bd
-www.megabet.bd
-winingbet.bd
-www.winingbet.bd
-bdluckybet.com
-www.bdluckybet.com
-cricketbaz.bd
-www.cricketbaz.bd
-kingbet.bd
-www.kingbet.bd
-royalbet.bd
-www.royalbet.bd
-diamondbet.bd
-www.diamondbet.bd
-platinumbet.bd
-www.platinumbet.bd
-goldenbet.bd
-www.goldenbet.bd
-lotterybd.com
-www.lotterybd.com
-bdroulette.com
-www.bdroulette.com
-bdcasino.com
-www.bdcasino.com
-onlinecasino.bd
-www.onlinecasino.bd
-bdblackjack.com
-www.bdblackjack.com
-bangla-gambling.com
-www.bangla-gambling.com
-dhaca-bet.com
-jackpot.bd
-www.jackpot.bd
-casinobd.com
-www.casinobd.com
-betbangla.com
-www.betbangla.com
 
 # Video delivery and streaming
 
 # CDN and static content
-lh3.googleusercontent.com
-lh4.googleusercontent.com
-lh5.googleusercontent.com
-lh6.googleusercontent.com
-lh7.googleusercontent.com
-yt3.ggpht.com
-yt4.ggpht.com
-yt5.ggpht.com
+lh3.googleusercontent.com (removed)
+lh4.googleusercontent.com (removed)
+lh5.googleusercontent.com (removed)
+lh6.googleusercontent.com (removed)
+lh7.googleusercontent.com (removed)
+yt3.ggpht.com (removed)
+yt4.ggpht.com (removed)
+yt5.ggpht.com (removed)
 
 # Content delivery networks
 adclick.g.doubleclick.net
