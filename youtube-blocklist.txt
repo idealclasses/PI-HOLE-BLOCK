@@ -439,9 +439,6 @@ www.process-injection.com
 # Tracking and Analytics (Privacy concerns)
 scorecardresearch.com
 www.scorecardresearch.com
-analytics.google.com
-google-analytics.com
-www.google-analytics.com
 analytics.twitter.com
 amazon-adsystem.com
 www.amazon-adsystem.com
@@ -541,8 +538,6 @@ fake-apple.com
 www.fake-apple.com
 fake-microsoft.com
 www.fake-microsoft.com
-fake-google.com
-www.fake-google.com
 fake-facebook.com
 www.fake-facebook.com
 credential-stealer.com
