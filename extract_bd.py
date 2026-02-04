@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 
-with open('/workspaces/PI-HOLE-BLOCK/YT_playlist.m3u', 'r') as f:
-    lines = f.readlines()
+import urllib.request
+
+# Download the playlist
+url = "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u"
+response = urllib.request.urlopen(url)
+data = response.read().decode('utf-8')
+lines = data.split('\n')
 
 output = ['#EXTM3U\n']
 
