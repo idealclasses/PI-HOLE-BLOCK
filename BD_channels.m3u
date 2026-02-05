@@ -1,5 +1,7 @@
 #EXTM3U
-#EXTM3U
+
+# From: BD_channels.m3u (original)
+# From: YT_playlist.m3u — skipped (no valid entries)
 #EXTINF:-1 group-title="[LIVE] BDIX ♛" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png",[BD] EPL channel 1
 https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8
 https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8
