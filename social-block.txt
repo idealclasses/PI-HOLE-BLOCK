@@ -250,6 +250,11 @@ www.webmasterplan.com
 widgetserver.com
 www.widgetserver.com
 
+# Social additions (merged from original social-block.txt)
+analytics.twitter.com
+fake-facebook.com
+www.fake-facebook.com
+
 # Known Malware Domains
 malware.com
 zeus-tracker.abuse.ch
